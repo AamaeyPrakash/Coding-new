@@ -1,0 +1,45 @@
+body {
+    margin-top:10%;
+    padding:0;
+}
+table {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    border:none;
+    width:20%;
+    height: 80%;
+}
+#txt {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    color: #FDFEFE;
+    padding-right: 10px;
+    font-size: 150%;
+    text-align: right;
+    background-color: #223850;
+    border:0;
+}
+.buttonNumber {
+    background-color: #223850;
+    color:cadetblue;
+}
+.buttonOperator {
+    background-color: #128094;
+    color: #ffffff;
+}
+.equalOperator{
+    background-color: #e77c18;
+}
+button {
+    height:100%;
+    width:100%;
+    border:0;
+}
+td {
+    padding: 0;
+    margin:0;
+}
+tr {
+    padding:0;
+    margin:0;
+}

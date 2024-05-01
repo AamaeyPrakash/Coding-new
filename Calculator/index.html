@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css" type="text/css">
+    </head>
+    <body>
+        <table class="container">
+            <tr><td colspan="4"> <input type="text" id="txt"></td></tr>
+            <tr class="row1">
+                <td><button onclick="clearInput()" class="buttonOperator">AC</button></td>
+                <td><button onclick="eraseNum()" class="buttonOperator">⌦</button></td>
+                <td><button onclick="digit('/')" class="buttonOperator">÷</button></td>
+                <td><button onclick="digit('*')" class="buttonOperator">×</button></td>
+            </tr>
+            <tr class="row2">
+                <td><button onclick="digit('7')" class="buttonNumber">7</button></td>
+                <td><button onclick="digit('8')" class="buttonNumber">8</button></td>
+                <td><button onclick="digit('9')" class="buttonNumber">9</button></td>
+                <td><button onclick="digit('+')" class="buttonOperator">+</button></td>
+            </tr>
+            <tr class="row3">
+                <td><button onclick="digit('4')" class="buttonNumber">4</button></td>
+                <td><button onclick="digit('5')" class="buttonNumber">5</button></td>
+                <td><button onclick="digit('6')" class="buttonNumber">6</button></td>
+                <td><button onclick="digit('-')" class="buttonOperator">-</button></td>
+            </tr>
+            <tr class="row4">
+                <td><button onclick="digit('1')" class="buttonNumber">1</button></td>
+                <td><button onclick="digit('2')" class="buttonNumber">2</button></td>
+                <td><button onclick="digit('3')" class="buttonNumber">3</button></td>
+                <td rowspan="2"><button onclick="answer()" class="equalOperator">=</button></td>
+
+            </tr>
+            <tr>
+                <td colspan="2"><button onclick="digit('0')" class="buttonNumber">0</button></td>
+                <td><button onclick="digit('.')" class="buttonNumber">.</button></td>
+            </tr>
+        </table>
+        <script src="script.js"></script>
+
+    </body>
+</html>
