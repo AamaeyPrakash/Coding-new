@@ -1,11 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import ChildComponent from './components/ChildComponent';
+import ChildComponent from './components/ChildComponent.js';
+import PhonesComponent from './components/PhonesComponent.js';
 
 function App() {
   return (
     <div className="App">
-      <ChildComponent />
+      {/* <ChildComponent /> */}
+      <PhonesComponent />
     </div>
   );
 }
