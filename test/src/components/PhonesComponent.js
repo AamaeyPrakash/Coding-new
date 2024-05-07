@@ -23,7 +23,7 @@ export class PhonesComponent extends PureComponent {
                 <ul>Rating: {products.rating}/5</ul>
           </div>
 
-          {/* <div>
+          <div>
             {(() => {
               if (products.stock < 20){
                 let lowStock = document.createElement("paragraph");
@@ -34,7 +34,7 @@ export class PhonesComponent extends PureComponent {
                 stockParagraph.appendChild("Stock Remaining: {products.stock}");
               }
             })}
-          </div> */}
+          </div>
           {/* <div>
             <img src={products.images[0]} className='galleryImage'></img>
             <img src={products.images[1]} className='galleryImage'></img>
