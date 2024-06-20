@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Header from './Components/Header.jsx'
 import Slider from './Components/Slider.jsx'
+import ProductionHouse from './Components/ProductionHouse.jsx'
 
 function App() {
 
@@ -12,6 +13,8 @@ function App() {
       <Header />
       
       <Slider />
+
+      <ProductionHouse/>
     </div>
   )
 }
