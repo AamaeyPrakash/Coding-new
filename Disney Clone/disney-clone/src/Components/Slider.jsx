@@ -19,20 +19,20 @@ function Slider() {
     }
 
     const sliderRight=(element)=>{
-        element.scrollLeft+=screenWidth
+        element.scrollLeft+=screenWidth-108
     }
     const sliderLeft=(element)=>{
-        element.scrollLeft-=screenWidth
+        element.scrollLeft-=screenWidth-108
     }
   return (
     <div>
         <div>
-            <HiChevronLeft className="hidden md:block text-white text-[30px] absolute mx-8 mt-[150px] cursor-pointer" onClick={()=>sliderLeft(elementRef.current)} />
-            <HiChevronRight className="hidden md:block text-white text-[30px] absolute mx-8 mt-[150px] cursor-pointer right-0" onClick={()=>sliderRight(elementRef.current)}/>
+            <HiChevronLeft className="hidden md:block text-white text-[30px] absolute ml-8 mr-4 mt-[150px] lg:mt-[252px] cursor-pointer" onClick={()=>sliderLeft(elementRef.current)} />
+            <HiChevronRight className="hidden md:block text-white text-[30px] absolute mr-8 ml-4 mt-[150px] lg:mt-[252px] cursor-pointer right-0" onClick={()=>sliderRight(elementRef.current)}/>
         </div>
         <div className='flex overflow-x-auto w-full px-16 py-4 scrollbar-none scroll-smooth' ref={elementRef}>
             {movieList.map((item,index)=>(
-                <img src={IMAGE_BASE_URL+item.backdrop_path} className='min-w-full h-[310px] lg:h-[550px] object-cover object-left-top mr-5 rounded-md hover:border-[4px] border-gray-400 transition-all duration-100 ease-in'/>
+                <img src={IMAGE_BASE_URL+item.backdrop_path} className='min-w-full h-[310px] lg:h-[500px] object-cover object-left-top mr-5 rounded-md hover:border-[4px] border-gray-400 transition-all duration-100 ease-in'/>
             ))}
         </div>
     </div>
