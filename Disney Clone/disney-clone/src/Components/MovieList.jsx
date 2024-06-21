@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from 'react'
 import GlobalApi from '../Services/GlobalApi'
 import MovieCard from './MovieCard';
 import { IoChevronBackOutline, IoChevronForwardOutline } from 'react-icons/io5';
+import HorizontalMovieCard from './HorizontalMovieCard';
 
 function MovieList({genreId,index_}) {
     const [movieList, setMovieList] = useState([])
@@ -30,7 +31,9 @@ function MovieList({genreId,index_}) {
         
         <div ref={elementRef} className='flex overflow-x-auto gap-8 scrollbar-none scroll-smooth pt-4 px-3 pb-4'>
             {movieList.map((item,index)=>(
-                <MovieCard movie={item}/>
+                <>
+                {index_%3==0?<HorizontalMovieCard movie={item}/>:<MovieCard movie={item}/>}
+                </>
             ))}
         </div>
 
