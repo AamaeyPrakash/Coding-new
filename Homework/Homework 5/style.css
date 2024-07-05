@@ -1,0 +1,32 @@
+#movieContainer {
+    display:flex;
+    align-items: center;
+}
+h5, h4, h3{
+    margin: 8;
+    padding: 8;
+}
+#cName {
+    color:indigo;
+    font-size: xx-large;
+}
+#vActor {
+    color:darkblue;
+}
+#cSpecies {
+    color:cornflowerblue;
+}
+#cTraits {
+    color:cadetblue;
+}
+#vActor, #cName, #cSpecies {
+    background-color:   rgb(245, 245, 245, 0.7);
+    border-radius: 10px;
+}
+
+body {
+    background-image: url('HD-wallpaper-movie-frozen-2-anna-frozen-elsa-frozen-hans-frozen-kristoff-frozen-olaf-frozen.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}

@@ -1,0 +1,38 @@
+.table tr th, td {
+    padding:10px;
+}
+
+.table {
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    border-collapse:collapse;
+    margin: auto;
+    justify-content: space-evenly;
+}
+
+
+ul li {
+    list-style-type: square;
+}
+.sublist li{
+    list-style-type: circle;
+    list-style-position:inside;
+}
+ol li {
+    list-style-type: upper-roman;
+    list-style-position: outside;
+}
+.subol li {
+    list-style-type: lower-roman;
+}
+
+dt {
+    font-weight: bold;
+    text-decoration: underline;
+}
+dd {
+    margin-left:40px;
+    padding: 10px;
+}
+

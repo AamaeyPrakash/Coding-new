@@ -1,0 +1,29 @@
+.navbar ul {
+    display: flex;
+    justify-content: center;  
+    list-style-type: none;
+    padding: 10px;
+    background-color: white;
+}
+.navbar ul li a {
+color: #91d3ce;
+text-decoration: none;
+}
+.navbar ul li a:hover{
+text-decoration: underline;
+}
+.navbar ul li:hover{
+    background-color:#076854;
+}
+.navbar ul li{
+padding:12 28 12 28 ;
+background-color: #0c7962;
+border-style: solid;
+border-color: #149075;
+border-collapse: collapse;
+border-width: 1;
+}
+body {
+padding: 0;
+margin: 0;
+}
