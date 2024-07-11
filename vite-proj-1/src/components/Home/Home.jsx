@@ -1,8 +1,15 @@
 import React from 'react'
+import ProductCard from '../Cart/ProductCard'
+import MyProvider from '../Cart/MyProvider'
+import ProductCard from '../Cart/ProductCard'
 
 function Home() {
   return (
-    <div>Home</div>
+    <div>
+      <MyProvider>
+        <ProductCard/>
+      </MyProvider>
+    </div>  
   )
 }
 
