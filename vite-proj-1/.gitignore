@@ -12,8 +12,8 @@ dist
 dist-ssr
 *.local
 
-#Txt
-firebase.txt
+#Firebase
+Firebase.jsx
 
 # Editor directories and files
 .vscode/*
