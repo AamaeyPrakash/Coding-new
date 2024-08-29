@@ -34,11 +34,8 @@ import CardBasedAccounts from './components/casWork/CardBasedAccounts';
 
 function App() {
   return (
-    <div > 
-      <div className='my-2'>
-        <CardBasedAccounts />
-      </div>
-
+    <div>
+      
     </div>
   )
 }
